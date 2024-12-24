@@ -1,0 +1,22 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css')}}">
+        <title>Utsukushi</title>
+    </head>
+
+    <body>
+        <h1>Tsukushi Futaba di sini</h1>
+        <div class="chat">
+            <div class="messages">
+                <ul class="message-list">
+                </ul>
+                <div class="message-input">
+                <input type="text" placeholder="Type your message..." />
+                <button type="button" class="btn">Send</button>
+                </div>
+            </div>
+        </div>
+        <script src="{{ url_for('static', filename='js/main.js')}}"></script>
+    </body>
+</html>
+  
